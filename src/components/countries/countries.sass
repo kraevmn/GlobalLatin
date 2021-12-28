@@ -1,0 +1,63 @@
+.coutries__title
+    font-weight: bold
+    font-size: 42px
+    line-height: 135%
+    padding-bottom: 58px
+
+.coutries__content
+    display: flex
+    padding-bottom: 150px
+
+
+.coutries__images
+    display: flex
+    flex: 0 0 573px
+    align-self: start
+    padding: 59px 76px 45px 59px
+
+.coutries__image
+    width: 100%
+
+.coutries__items
+    display: flex
+    flex: 1 1 50%
+    flex-wrap: wrap
+    align-content: start
+    padding: 0px 48px 0px 48px
+
+.countries__item
+    display: flex
+    flex: 0 0
+    flex-direction: column
+    text-decoration: none
+    padding: 0px 28px 28px 28px
+
+.countries__circle
+    display: flex   
+    height: 68px
+    width: 68px
+    border-radius: 50%
+    box-shadow: 0px 11px 22px rgba(20, 51, 98, 0.09)
+    align-content: center
+    justify-content: center
+
+.countries__item:hover .countries__circle
+    border: 1px solid #E8EFF4
+
+.countries__item:hover p
+    color: #FC5632
+
+.countries__circle 
+    &.on
+        border: 1px solid #E8EFF4
+
+p 
+    &.on
+        color: #FC5632    
+
+p
+    text-align: center
+    padding-top: 10px
+    
+#states .on 
+  fill: #FC5632
